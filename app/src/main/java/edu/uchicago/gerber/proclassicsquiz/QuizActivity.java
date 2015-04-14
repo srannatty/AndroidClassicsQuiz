@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.content.Intent;
 
 /**
  * Created by jennifer1 on 4/14/15.
@@ -41,6 +42,7 @@ public class QuizActivity extends ActionBarActivity{
         mExitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 finish();
             }
         });
@@ -100,6 +102,7 @@ public class QuizActivity extends ActionBarActivity{
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menuExit:
+                getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 finish();
                 return true;
             case R.id.menuStartLatin:
