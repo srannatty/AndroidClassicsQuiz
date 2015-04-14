@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/resultHeader"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="10"
+        android:paddingTop="15dp"
+        android:textSize="25sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFF"/>
+
+    <TextView
+        android:id="@+id/correctText"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="10"
+        android:background="#3c3c3c"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:textColor="#0F0"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/incorrectText"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="10"
+        android:background="#3c3c3c"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:textColor="#F00"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="10"
+        android:background="#3c3c3c"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:textColor="#FFF"
+        android:textSize="30sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFF"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        >
+
+        <Button
+            android:id="@+id/anotherQuizButton"
+            style="@style/button_style"
+            android:layout_weight="25"
+            android:text="@string/anotherQuiz"
+            />
+
+        <Button
+            android:id="@+id/resetButton"
+            style="@style/button_style"
+            android:layout_weight="75"
+
+            android:text="@string/reset"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,8 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">proClassicsQuiz</string>
+    <string name="app_name">ClassicsQuiz</string> <!--changed-->
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="appName">ClassicsQuiz</string> <!--changed-->
+    <!-- <string name="app_name">CapitalQuiz</string> -->
+    <string name="yourName">Your Name:\ </string>
+    <string name="enterName">enter your name....</string>
+    <string name="welcome">Welcome to Classics Quiz</string>
+    <string name="startQuizMixed">Mixed</string>  <!--changed-->
+    <string name="exit">Exit</string>
+    <string name="questionNumberText">Question %d:</string>
+    <string name="pleaseSelectAnswer">Please select an answer to proceed.</string>
+    <string name="submit">Submit</string>
+    <string name="quit">Quit</string>
+    <string name="reset">Reset</string>
+    <string name="anotherQuiz">Another Quiz</string>
+    <string name="correct">Correct: %d</string>
+    <string name="incorrect">Incorrect: %d</string>
+    <string name="score">Score: %d%%</string>
+    <string name="nameResultHeader">%s, your results are:</string>
+
+    <!--added -->
+    <string name="startQuizLatin">Latin</string>
+    <string name="startQuizGreek">Greek</string>
+
+    <string-array
+        name="word_classics">
+
+        <item>aedificium|building|LAT</item>
+        <item>alacer|quick|LAT</item>
+        <item>dulcis|sweet|LAT</item>
+        <item>tardus|slow|LAT</item>
+        <item>pello|push|LAT</item>
+        <item>pendeo|hanging|LAT</item>
+        <item>sum|be|LAT</item>
+        <item>civis|citizen|LAT</item>
+        <item>dignus|worthy|LAT</item>
+        <item>equus|horse|LAT</item>
+
+        <item>ankura|anchor|GRK</item>
+        <item>agora|marketplace|GRK</item>
+        <item>allotropos|strange|GRK</item>
+        <item>amblus|dim|GRK</item>
+        <item>bios|life|GRK</item>
+        <item>boreas|north|GRK</item>
+        <item>bradus|slow|GRK</item>
+        <item>thermos|hot|GRK</item>
+        <item>hippos|horse|GRK</item>
+
+    </string-array>
+
 
 </resources>
